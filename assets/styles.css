@@ -4,14 +4,14 @@ body::before {
   height: 100px;
 }
 
-@media only screen and (min-width: 768px) {
-  .news-input {
-    width: 50%;
-  }
-}
-/* 
-@media screen and (max-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .news-input {
     width: 50%;
   }
 } */
+
+@media(max-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
